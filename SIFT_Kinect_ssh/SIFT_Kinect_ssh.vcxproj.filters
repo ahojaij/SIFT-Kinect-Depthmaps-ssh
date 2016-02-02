@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Kinect">
+      <UniqueIdentifier>{05f52bb2-7e8d-4938-a35e-e0a9cfc0be1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ssh">
+      <UniqueIdentifier>{bcf4fec0-9950-4e79-8e8c-d8f734ff0649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kinect">
+      <UniqueIdentifier>{ef275e5d-4782-44c1-9e2a-d0c6f159122a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ssh">
+      <UniqueIdentifier>{064747e4-dbe2-4433-b279-6196d444d2cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh Folder\authentication.cpp">
+      <Filter>Source Files\ssh</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh Folder\connect_ssh.cpp">
+      <Filter>Source Files\ssh</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh Folder\knownhosts.cpp">
+      <Filter>Source Files\ssh</Filter>
+    </ClCompile>
+    <ClCompile Include="ssh Folder\SendLine.cpp">
+      <Filter>Source Files\ssh</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect Folder\InteractionMatrix.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect Folder\KinectSensor.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect Folder\PixelMatchExtraction.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect Folder\KinectWrapper.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+    <ClCompile Include="Kinect Folder\SIFT_Kinect.cpp">
+      <Filter>Source Files\Kinect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kinect Folder\KinectSensor.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinect Folder\PixelMatchExctraction.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="ssh Folder\examples_common.h">
+      <Filter>Header Files\ssh</Filter>
+    </ClInclude>
+    <ClInclude Include="ssh Folder\ssh_Send.h">
+      <Filter>Header Files\ssh</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinect Folder\InteractionMatrix.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+    <ClInclude Include="Kinect Folder\KinectWrapper.h">
+      <Filter>Header Files\Kinect</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

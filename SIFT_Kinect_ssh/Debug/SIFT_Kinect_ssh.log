@@ -1,0 +1,33 @@
+﻿Build started 5/14/2013 2:30:36 PM.
+     1>Project "C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\SIFT_Kinect_ssh\SIFT_Kinect_ssh.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SIFT_Kinect_ssh.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\hp\Desktop\Abdullah_Hoj\AUB\Programs\OpenCv\opencv2.4.3\opencv\build2\install\include /I"C:\Users\hp\Downloads\C++ Libraries\eigen-eigen-5097c01bcdc4" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.6\inc" /I"C:\Users\hp\Downloads\C++ Libraries\libssh-0.5.3\install_ssh\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\hp\desktop\control algorithm\sift and kinect with depth using ssh - copy\sift_kinect_ssh\sift_kinect_ssh\main.cpp(250): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\hp\desktop\control algorithm\sift and kinect with depth using ssh - copy\sift_kinect_ssh\sift_kinect_ssh\main.cpp(258): warning C4244: '=' : conversion from 'USHORT' to 'uchar', possible loss of data
+     1>c:\users\hp\desktop\control algorithm\sift and kinect with depth using ssh - copy\sift_kinect_ssh\sift_kinect_ssh\main.cpp(284): warning C4553: '==' : operator has no effect; did you intend '='?
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\Debug\SIFT_Kinect_ssh.exe" /NOLOGO /LIBPATH:C:\Users\hp\Desktop\Abdullah_Hoj\AUB\Programs\OpenCv\opencv2.4.3\opencv\build2\install\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.6\lib\x86" /LIBPATH:"C:\Users\hp\Downloads\C++ Libraries\libssh-0.5.3\install_ssh\lib" ssh.lib Kinect10.lib opencv_calib3d243d.lib opencv_contrib243d.lib opencv_core243d.lib opencv_features2d243d.lib opencv_flann243d.lib opencv_gpu243d.lib opencv_highgui243d.lib opencv_imgproc243d.lib opencv_legacy243d.lib opencv_ml243d.lib opencv_nonfree243d.lib opencv_objdetect243d.lib opencv_photo243d.lib opencv_stitching243d.lib opencv_ts243d.lib opencv_video243d.lib opencv_videostab243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SIFT_Kinect_ssh.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\Debug\SIFT_Kinect_ssh.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\Debug\SIFT_Kinect_ssh.lib" /MACHINE:X86 Debug\InteractionMatrix.obj
+         Debug\KinectSensor.obj
+         Debug\KinectWrapper.obj
+         Debug\PixelMatchExtraction.obj
+         Debug\SIFT_Kinect.obj
+         Debug\Main.obj
+         Debug\authentication.obj
+         Debug\connect_ssh.obj
+         Debug\knownhosts.obj
+         Debug\SendLine.obj
+         LINK : C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\Debug\SIFT_Kinect_ssh.exe not found or not built by the last incremental link; performing full link
+         SIFT_Kinect_ssh.vcxproj -> C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\Debug\SIFT_Kinect_ssh.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\Debug\SIFT_Kinect_ssh.exe;#1" /manifest Debug\SIFT_Kinect_ssh.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SIFT_Kinect_ssh.unsuccessfulbuild".
+         Touching "Debug\SIFT_Kinect_ssh.lastbuildstate".
+     1>Done Building Project "C:\Users\hp\Desktop\Control Algorithm\SIFT and Kinect with depth using ssh - Copy\SIFT_Kinect_ssh\SIFT_Kinect_ssh\SIFT_Kinect_ssh.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.36
